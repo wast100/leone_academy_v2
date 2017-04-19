@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestModuleMetadata, TestBed } from '@angular/core/testing';
+/*import { async, ComponentFixture, TestModuleMetadata, TestBed } from '@angular/core/testing';
 import { TestUtils } from '../../../test';
 import { NewsListPage } from './news.list.page';
 import { NewsService } from '../news.service';
@@ -67,3 +67,4 @@ describe('NewsList page', () => {
 		});
 	}));
 });
+*/

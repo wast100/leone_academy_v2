@@ -4,9 +4,10 @@ import { Http } from '@angular/http';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Config, cloudSettings } from '../config';
+import { BrowserModule } from '@angular/platform-browser';
 
 // import own Pages
-import { HomePage } from '../pages/home/home';
+import { HomeModule } from '../pages/home/home.module';
 import { NewsModule } from '../pages/news/news.module';
 import { lCalendarModule } from '../pages/leoCalendar/lcalendar.module';
 
@@ -23,7 +24,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     IonicModule.forRoot(MyApp),
     CloudModule.forRoot(cloudSettings),
-    HomePage,
+    BrowserModule,
+    HomeModule,
     NewsModule,
     lCalendarModule
   ],

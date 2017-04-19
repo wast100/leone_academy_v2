@@ -11,8 +11,7 @@ export class Config{
   static videoUrl = 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4';
   static audioUrl = 'http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3';
   static sender_id = '132598765091';
-  static app_id = '6adce26f';
-
+  static app_id = 'db6fedd9';
 }
 
 export const cloudSettings: CloudSettings = {

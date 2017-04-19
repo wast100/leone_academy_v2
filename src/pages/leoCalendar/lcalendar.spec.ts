@@ -1,4 +1,4 @@
-import { lCalendarService } from './lcalendar.service';
+/*import { lCalendarService } from './lcalendar.service';
 import { Config } from '../../config';
 import { TestUtils } from '../../test';
 import { TestBed } from '@angular/core/testing';
@@ -26,3 +26,4 @@ describe('NewsService', () => {
 		});
 	});
 });
+*/
