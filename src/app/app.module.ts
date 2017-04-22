@@ -13,7 +13,6 @@ import { lCalendarModule } from '../pages/leoCalendar/lcalendar.module';
 
 // import Cloud and native stuff
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
-import { PushModule } from '../pages/push/push.module';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 

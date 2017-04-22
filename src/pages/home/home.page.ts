@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Nav } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
 import { lCalendarListPage } from '../leoCalendar/list/lcalendar.list.page';
 import { NewsListPage } from '../news/list/news.list.page';
@@ -20,14 +20,14 @@ export class HomePage {
 	private callService: CallService;
 	private mapsService: MapsService;
 	private browserService: InAppBrowserService;
-	private nav: Nav;
+	private nav: NavController;
 
 	constructor(
 		emailService: EmailService,
 		callService: CallService,
 		mapsService: MapsService,
 		browserService: InAppBrowserService,
-		nav: Nav
+		nav: NavController
 	) {
 		this.emailService = emailService;
 		this.callService = callService;

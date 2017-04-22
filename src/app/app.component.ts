@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { Deploy } from '@ionic/cloud-angular';
-import { Platform, MenuController, App, Nav } from 'ionic-angular';
+import {Platform, MenuController, App, Nav } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 import { Push, PushToken } from '@ionic/cloud-angular';
 
@@ -15,10 +15,6 @@ import { lCalendarListPage } from '../pages/leoCalendar/list/lcalendar.list.page
 export class MyApp {
   wide: boolean = false;
   genericPages;
-  nativePages;
-  thirdpartyPages;
-  paymentsPages;
-  cssComponentsPages;
   homePage;
   rootPage;
 
