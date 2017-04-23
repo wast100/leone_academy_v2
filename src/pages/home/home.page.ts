@@ -38,6 +38,7 @@ export class HomePage {
 	}
 
 	public navigateTo(tile) {
+	  console.log(tile.component);
 		this.nav.setRoot(tile.component);
 	}
 

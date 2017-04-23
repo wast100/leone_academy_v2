@@ -64,7 +64,7 @@ export class MyApp {
     this.menu.close();
     // navigate to the new page if it is not the current page
     let component = page.component;
-
+    console.log(component);
     this.nav.setRoot(component);
   }
 
