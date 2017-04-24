@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
 import { NavParams } from 'ionic-angular';
 import { lCalendar } from '../models/lcalendar.model';
