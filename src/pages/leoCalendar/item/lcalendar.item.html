@@ -7,7 +7,7 @@
 <ion-content>
 	<div class="news-item" padding>
 		<h2>{{post.title}}</h2>
-		<p>{{post.start}}</p>
-    <p>{{post.end}}</p>
+		<p>{{post.start | date:"MM/dd/yy" }}</p>
+    <p>{{post.end | date:"MM/dd/yy" }}</p>
 	</div>
 </ion-content>

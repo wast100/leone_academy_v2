@@ -63,6 +63,7 @@
     "karma-jasmine": "^1.1.0",
     "karma-mocha-reporter": "^2.2.1",
     "karma-remap-istanbul": "^0.2.1",
+    "moment": "^2.18.1",
     "protractor": "4.0.14",
     "ts-node": "^1.7.2",
     "typescript": "2.0.9"
