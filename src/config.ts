@@ -1,4 +1,3 @@
-import { Injectable } from '@angular/core';
 import { CloudSettings } from '@ionic/cloud-angular';
 
 
@@ -8,8 +7,6 @@ export class Config{
 
   public ionicSecurityProfile = 'leonepush';
   public ionicCloudApiToken = 'AAAAHt-AliM:APA91bEB_IKu3zY2mCmZkJ4RZjofupbLmUjkEdKHLRJs-dp3VCDJ5gdQAQ07Bk7znTeFOi6ms_z3lMRGwJYRliKW_6mMXd01TH8UlALEw_VTvIsHuEJoI8ubcAV1JeUhvp4FxTvDhBMp';
-  static videoUrl = 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4';
-  static audioUrl = 'http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3';
   static sender_id = '132598765091';
   static app_id = 'db6fedd9';
 }

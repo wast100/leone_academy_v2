@@ -1,6 +1,5 @@
 // import Ionic and Angular stuff
 import { NgModule, ErrorHandler } from '@angular/core';
-import { Http } from '@angular/http';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { Config, cloudSettings } from '../config';
@@ -40,3 +39,5 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ]
 })
 export class AppModule {}
+
+
