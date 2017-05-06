@@ -1,4 +1,4 @@
-/*import { NewsService } from './news.service';
+import { NewsService } from './news.service';
 import { Config } from '../../config';
 import { TestUtils } from '../../test';
 import { TestBed } from '@angular/core/testing';
@@ -18,12 +18,11 @@ describe('NewsService', () => {
 
 			// Assert
 			news$.subscribe(items => {
-				expect(items.length).toBe(5);
-				expect(items[0].subject).toBe('WISI CONSEQUAT SIT ZZRIL.');
-
+				expect(items.length).toBe(4);
+				expect(items[0].subject).toBe('Alex schau zu');
 				done();
 			});
 		});
 	});
 });
-*/
+
