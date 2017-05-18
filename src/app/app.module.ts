@@ -11,7 +11,7 @@ import { NewsModule } from '../pages/news/news.module';
 import { lCalendarModule } from '../pages/leoCalendar/lcalendar.module';
 
 // import Cloud and native stuff
-import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
+import { CloudModule } from '@ionic/cloud-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 

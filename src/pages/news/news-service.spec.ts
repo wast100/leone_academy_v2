@@ -8,7 +8,7 @@ describe('NewsService', () => {
 	beforeEach(() => TestUtils.configureIonicTestingModule([]));
 
 	describe('getPosts()', () => {
-		it('should load list of news', (done) => {
+		it('when I enter the news page, it should load list of news', (done) => {
 			// Arrange
 			let http = TestBed.get(Http);
 			let service = new NewsService(http, new Config());

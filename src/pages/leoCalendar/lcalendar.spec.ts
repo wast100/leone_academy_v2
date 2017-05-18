@@ -8,7 +8,7 @@ describe('Calendar Service', () => {
 	beforeEach(() => TestUtils.configureIonicTestingModule([]));
 
 	describe('getPosts()', () => {
-		it('should load list of Classes', (done) => {
+		it('when I enter the calendar, it should load list of Classes', (done) => {
 			// Arrange
 			let http = TestBed.get(Http);
 			let service = new lCalendarService(http, new Config());

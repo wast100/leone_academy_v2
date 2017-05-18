@@ -42,8 +42,7 @@ export class MyApp {
     this.rootPage = HomePage;
 
     platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
+      // Okay, so the platform is ready and the plugins are available.
       StatusBar.styleDefault();
     });
 

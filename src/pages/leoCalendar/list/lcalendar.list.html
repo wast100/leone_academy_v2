@@ -11,8 +11,8 @@
 	<ion-list>
 		<ion-item text-wrap *ngFor="let post of posts" (click)="itemTapped(post)">
 			<h2>{{post.title}}</h2>
-			<p>{{post.start | date:"MM/dd/yy"}}</p>
-      <p>{{post.end | date:"MM/dd/yy"}}</p>
+			<p>{{post.start | date:"dd/MM/yy, h:mm:ss a"}}</p>
+      <p>{{post.end | date:"dd/MM/yy, h:mm:ss a"}}</p>
 		</ion-item>
 	</ion-list>
 </ion-content>

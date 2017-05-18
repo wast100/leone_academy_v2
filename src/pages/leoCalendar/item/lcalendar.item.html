@@ -1,13 +1,13 @@
 <ion-header>
 	<ion-navbar>
-		<ion-title>LEONE ACADEMY CALENDAR</ion-title>
+		<ion-title>Class Details</ion-title>
 	</ion-navbar>
 </ion-header>
 
 <ion-content>
 	<div class="news-item" padding>
 		<h2>{{post.title}}</h2>
-		<p>{{post.start | date:"MM/dd/yy" }}</p>
-    <p>{{post.end | date:"MM/dd/yy" }}</p>
+		<p>Start: {{post.start | date:"MM/dd/yy, h:mm:ss a" }}</p>
+    <p>End:  {{post.end | date:"MM/dd/yy, h:mm:ss a" }}</p>
 	</div>
 </ion-content>

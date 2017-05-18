@@ -25,6 +25,8 @@
     "@angular/platform-browser": "2.4.8",
     "@angular/platform-browser-dynamic": "2.4.8",
     "@angular/platform-server": "2.4.8",
+    "@ionic-native/core": "^3.6.1",
+    "@ionic-native/email-composer": "^3.6.1",
     "@ionic-native/push": "^3.4.4",
     "@ionic/cloud-angular": "^0.11.0",
     "@ionic/storage": "2.0.0",
@@ -81,6 +83,7 @@
     "call-number",
     "cordova-plugin-screen-orientation",
     "cordova-plugin-device-motion",
+    "cordova-plugin-email-composer",
     "phonegap-plugin-push",
     {
       "variables": {
