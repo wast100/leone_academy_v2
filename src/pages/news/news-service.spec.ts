@@ -18,8 +18,8 @@ describe('NewsService', () => {
 
 			// Assert
 			news$.subscribe(items => {
-				expect(items.length).toBe(4);
-				expect(items[0].subject).toBe('Alex schau zu');
+				expect(items.length).toBe(5);
+				expect(items[0].subject).toBe('Kurt schaut jetzt auch zu');
 				done();
 			});
 		});

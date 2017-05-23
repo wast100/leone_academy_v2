@@ -19,7 +19,7 @@ describe('Calendar Service', () => {
 			// Assert
       classes$.subscribe(items => {
 				expect(items.length).toBe(3);
-				expect(items[0].title).toBe('testtraining');
+				expect(items[0].title).toBe('achtuhr training');
 				done();
 			});
 		});
