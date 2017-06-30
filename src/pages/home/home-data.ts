@@ -8,3 +8,4 @@ export const data = {
 	},
 	officeLocation: '46.9319415,7.4187083'
 };
+
