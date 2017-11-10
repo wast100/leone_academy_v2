@@ -3,4 +3,5 @@ export class lCalendar {
 	public title: string;
 	public start: string;
   public end: string;
+  public avatarurl: string;
 }

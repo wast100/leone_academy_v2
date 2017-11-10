@@ -10,9 +10,12 @@
 <ion-content>
 	<ion-list>
 		<ion-item text-wrap *ngFor="let post of posts" (click)="itemTapped(post)">
+      <ion-thumbnail item-left>
+        <img src="http://rc.spomix.ch{{post.avatarurl}}">
+      </ion-thumbnail>
 			<h2>{{post.title}}</h2>
-			<p>{{post.start | date:"dd/MM/yy, h:mm:ss a"}}</p>
-      <p>{{post.end | date:"dd/MM/yy, h:mm:ss a"}}</p>
+			<p>{{post.start | date:"EEE, dd.M, hh:mm "}}</p>
+      <p>{{post.end | date:"EEE, dd.M, hh:mm "}}</p>
 		</ion-item>
 	</ion-list>
 </ion-content>
