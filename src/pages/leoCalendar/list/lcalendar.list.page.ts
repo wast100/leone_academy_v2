@@ -4,7 +4,7 @@ import { NavController } from 'ionic-angular';
 
 import { lCalendarService } from '../lcalendar.service';
 import { lCalendar } from '../models/lcalendar.model';
-import { NewsItemPage } from '../item/lcalendar.item.page';
+import { DetailsItemPage } from '../item/lcalendar.item.page';
 
 @Component({
 	templateUrl: './lcalendar.list.html'
@@ -28,7 +28,7 @@ export class lCalendarListPage implements OnInit {
 	}
 
 	public itemTapped(item) {
-		this.nav.push(NewsItemPage, {
+		this.nav.push(DetailsItemPage, {
 			item: item
 		});
 	}
