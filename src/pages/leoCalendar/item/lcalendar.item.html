@@ -5,9 +5,10 @@
 </ion-header>
 
 <ion-content>
-	<div class="news-item" padding>
-		<h2>{{post.title}}</h2>
-		<p>Start: {{post.start | date:"MM/dd/yy, h:mm:ss a" }}</p>
-    <p>End:  {{post.end | date:"MM/dd/yy, h:mm:ss a" }}</p>
-	</div>
+	<img class="news-item" padding>
+  <img src="http://rc.spomix.ch{{detailpost.avatarurl}}">
+		<h2>{{detailpost.name}}</h2>
+    <p>{{detailpost.start | date:"EEE, dd.MM.yy, HH:mm "}}</p>
+    <p>{{detailpost.end | date:"EEEE, dd.MM.yy, HH:mm "}}</p>
+    <div>blabla {{detailpost.description}}</div>
 </ion-content>

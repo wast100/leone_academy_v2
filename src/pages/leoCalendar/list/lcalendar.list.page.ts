@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
 import { NavController } from 'ionic-angular';
-
 import { lCalendarService } from '../lcalendar.service';
 import { lCalendar } from '../models/lcalendar.model';
 import { DetailsItemPage } from '../item/lcalendar.item.page';

@@ -4,7 +4,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { NavParams } from 'ionic-angular';
 import { calendarDetails } from '../models/calendarDetails.model'
 import { calendarDetailsService } from '../calendarDetails.service';
-import {NavController} from "../../../../node_modules/ionic-angular/umd/navigation/nav-controller";
+//import {NavController} from "../../../../node_modules/ionic-angular/umd/navigation/nav-controller";
+import {NavController} from "ionic-angular/index";
 
 @Component({
 	templateUrl: './lcalendar.item.html'
