@@ -1,7 +1,7 @@
 export class calendarDetails{
-	public id: string;
-	public start: string;
-  public end: string;
+  public id: string;
+	public startFrom: string;
+  public endAt: string;
   public name: string;
   public contingent: string;
   public avatarurl: string;

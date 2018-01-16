@@ -6,30 +6,21 @@ import { calendarDetails } from '../models/calendarDetails.model'
 import { calendarDetailsService } from '../calendarDetails.service';
 //import {NavController} from "../../../../node_modules/ionic-angular/umd/navigation/nav-controller";
 import {NavController} from "ionic-angular/index";
+import {lCalendar} from "../models/lcalendar.model";
 
 @Component({
 	templateUrl: './lcalendar.item.html'
 })
 export class DetailsItemPage {
-  private service: calendarDetailsService;
-	detailpost: calendarDetails;
-  private nav: NavController;
+  clazztpl: lCalendar;
 
-	constructor(navParams: NavParams, nav:NavController) {
-		this.detailpost = <calendarDetails>navParams.get('item');
+	constructor(private navParams: NavParams, private nav:NavController, private service: calendarDetailsService) {
+		this.clazztpl = <lCalendar>navParams.get('item');
 		this.nav = nav;
-	}
-
-
-  public itemTapped(item) {
-    this.service.getDetails(item.id)
+		console.log(this.clazztpl,'burger');
+    this.service.getDetails(this.clazztpl.id)
       .subscribe(posts => {
-        this.detailpost = posts;
-      });
-    this.nav.push(DetailsItemPage, {
-      item: item
+        this.clazztpl.clazz = posts;
     });
-  }
-
-
+	}
 }

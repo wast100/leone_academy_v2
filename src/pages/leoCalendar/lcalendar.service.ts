@@ -28,6 +28,9 @@ export class lCalendarService {
     });
 
 		return this.http.get(this.config.calendarUrl, options)
-    .map(x => <lCalendar[]>x.json());
+    .map(x => {
+      console.log(x);
+      return <lCalendar[]>x.json();
+    });
 	}
 }

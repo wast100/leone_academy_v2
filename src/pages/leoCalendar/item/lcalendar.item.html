@@ -7,8 +7,8 @@
 <ion-content>
 	<img class="news-item" padding>
   <img src="http://rc.spomix.ch{{detailpost.avatarurl}}">
-		<h2>{{detailpost.name}}</h2>
-    <p>{{detailpost.start | date:"EEE, dd.MM.yy, HH:mm "}}</p>
-    <p>{{detailpost.end | date:"EEEE, dd.MM.yy, HH:mm "}}</p>
-    <div>blabla {{detailpost.description}}</div>
+		<h2>{{clazztpl.clazz.name}}</h2>
+    <p>Start:{{clazztpl.clazz.startFrom | date:"EEE, dd.MM.yy, HH:mm "}}</p>
+    <p>End:{{clazztpl.clazz.endAt | date:"EEEE, dd.MM.yy, HH:mm "}}</p>
+    <div>Description:{{clazztpl.clazz.description}}</div>
 </ion-content>

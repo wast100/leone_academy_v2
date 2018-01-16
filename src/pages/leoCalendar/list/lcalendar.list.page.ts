@@ -26,6 +26,7 @@ export class lCalendarListPage implements OnInit {
 	}
 
 	public itemTapped(item) {
+	  console.log(item);
 		this.nav.push(DetailsItemPage, {
 			item: item
 		});
