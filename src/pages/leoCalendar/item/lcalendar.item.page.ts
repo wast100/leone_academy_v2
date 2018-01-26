@@ -17,8 +17,7 @@ export class DetailsItemPage {
 	constructor(private navParams: NavParams, private nav:NavController, private service: calendarDetailsService) {
 		this.clazztpl = <lCalendar>navParams.get('item');
 		this.nav = nav;
-		console.log(this.clazztpl,'burger');
-    this.service.getDetails(this.clazztpl.id)
+		this.service.getDetails(this.clazztpl.clazz.id)
       .subscribe(posts => {
         this.clazztpl.clazz = posts;
     });
