@@ -16,7 +16,7 @@ export class calendarDetailsService {
 	}
 
 	public getDetails(id): Observable<calendarDetails> {
-    let header = new Headers({ 'Authorization': 'Bearer NWVjNTllYTgtZWE0Yy00YTYzLWIzM2ItN2M1NWYzMzFhNWVk' });
+    let header = new Headers({ 'Authorization': 'Bearer MTlkMzc5NDAtN2FlYi00NTk5LThkZjctYzhmOGU2ZGQxNWNj' });
 
     //let params: URLSearchParams = new URLSearchParams();
     //params.set('id', id);

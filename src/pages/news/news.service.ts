@@ -15,7 +15,7 @@ export class NewsService {
 	}
 
 	public getPosts(): Observable<News[]> {
-    let header = new Headers({ 'Authorization': 'Bearer NWVjNTllYTgtZWE0Yy00YTYzLWIzM2ItN2M1NWYzMzFhNWVk' });
+    let header = new Headers({ 'Authorization': 'Bearer MTlkMzc5NDAtN2FlYi00NTk5LThkZjctYzhmOGU2ZGQxNWNj' });
     let options = new RequestOptions({ headers: header });
 		return this.http.get(this.config.newsUrl, options)
     .map(x => <News[]>x.json());
