@@ -11,3 +11,4 @@ export class calendarDetails{
   public registrations: string;
   public tags: string;
 }
+
