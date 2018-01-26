@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.leoneacademy.leoneapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>leone_academy_v2</name>
+    <name>LEONE ACADEMY</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="http://ionic.local/*" />
     <allow-navigation href="https://www.facebook.com/leoneacademy/" />
-    <allow-navigation href="tel:+41792007397" />
+    <allow-navigation href="tel:+41313316746" />
     <allow-navigation href="maps://maps.apple.com/?q=46.9319415,7.4187083" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

@@ -1,6 +1,6 @@
 export const data = {
 	facebook: 'https://www.facebook.com/leoneacademy/',
-	phoneNumber: '+41792007397',
+	phoneNumber: '+41313316746',
 	email: {
 		to: 'info@leoneacademy.ch',
 		subject: 'LEONE ACADEMY',
