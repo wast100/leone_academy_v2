@@ -103,5 +103,12 @@
       "locator": "ios"
     }
   ],
-  "description": "leone_academy_v2: An Ionic project"
+  "description": "leone_academy_v2: An Ionic project",
+  "cordova": {
+    "plugins": {
+      "phonegap-plugin-push": {
+        "SENDER_ID": "132598765091"
+      }
+    }
+  }
 }
