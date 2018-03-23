@@ -44,18 +44,28 @@ export class MyApp {
     platform.ready().then(() => {
       // Okay, so the platform is ready and the plugins are available.
       StatusBar.styleDefault();
+
+      var notificationOpenedCallback = function(jsonData) {
+        console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+      };
+  
+      window["plugins"].OneSignal
+        .startInit("b63342cf-a333-47f4-b397-65ad00c6efe0", "132598765091")
+        .handleNotificationOpened(notificationOpenedCallback)
+        .endInit();
+
     });
 
-    this.push.register().then((t: PushToken) => {
-      return this.push.saveToken(t);
-    }).then((t: PushToken) => {
-      console.log('Token saved:', t.token);
-    });
+  //  this.push.register().then((t: PushToken) => {
+  //    return this.push.saveToken(t);
+  //  }).then((t: PushToken) => {
+  //    console.log('Token saved:', t.token);
+  //  });
 
-    this.push.rx.notification()
-      .subscribe((msg) => {
-        alert(msg.title + ': ' + msg.text);
-      });
+  //  this.push.rx.notification()
+  //    .subscribe((msg) => {
+  //      alert(msg.title + ': ' + msg.text);
+  //    });
   }
 
   openPage(page) {

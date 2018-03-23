@@ -59,5 +59,6 @@
     <icon src="resources/ios/icon/icon-small@3x.png" />
     <plugin name="cordova-plugin-email" spec="~1.2.6" />
     <plugin name="ionic-plugin-deploy" spec="~0.6.7" />
-    <plugin name="onesignal-cordova-plugin" spec="^2.3.1" />
+    <plugin name="onesignal-cordova-plugin" spec="^2.3.2" />
+    <engine name="android" spec="~7.0.0" />
 </widget>
